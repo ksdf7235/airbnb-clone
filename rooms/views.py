@@ -1,6 +1,7 @@
 from math import ceil
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.core.paginator import Paginator
 from . import models
 
 # Create your views here.
